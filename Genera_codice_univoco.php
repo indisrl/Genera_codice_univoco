@@ -18,7 +18,7 @@ class Genera_codice_univoco{
             copy(getenv("root_progr_php") . "/wamp64/progr/variabili_globali/variabili_globali.php", __dir__ . "variabili_globali.php");
         } catch (Exception $e) {
             if (file_exists(__dir__ . "variabili_globali.php")) {
-                include($dati[$lavoro]["folder_programma"] . "variabili_globali.php");
+                include(__dir__ . "variabili_globali.php");
             } else {
                 exit(254);
             }
