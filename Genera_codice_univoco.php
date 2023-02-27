@@ -23,6 +23,7 @@ class Genera_codice_univoco{
                 exit(254);
             }
         }
+        $b="";
         $this->db = $dati[$lavoro]["database_cliente"];
         $this->ip_db = $dati[$lavoro]["ip_db"];
         $this->porta_db = "port=" . $dati[$lavoro]["porta_db"];
