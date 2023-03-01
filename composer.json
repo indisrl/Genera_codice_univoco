@@ -1,4 +1,6 @@
 {
+	"name":"gestione_codice_univoco/gestione_codice_univoco",
+	"description":"genera codici univoci salvandoli in un db",
     "require": {
         "hidehalo/nanoid-php": "^1.1"
     }
